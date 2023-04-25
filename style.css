@@ -1,0 +1,35 @@
+.header {
+  background-image: url("assets/hero-img.png");
+  object-fit: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-color: rgb(117, 80, 254);
+}
+.icon {
+  background-color: rgb(255, 238, 218);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses {
+  font-weight: 300;
+  font-size: 12px;
+  vertical-align: middle;
+  font-family: "Times New Roman", Times, serif;
+}
+.card-text {
+  font-weight: bold;
+}
+.checked {
+  color: orange;
+}
+.icon_content {
+  display: flex;
+  flex-direction: column;
+}
